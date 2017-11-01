@@ -12,6 +12,7 @@ public class MicroserviceSimpleConsumerMovieApplication {
 
   @Bean
   public RestTemplate restTemplate() {
+	  System.out.println("222222222222222222222222");
     return new RestTemplate();
   }
 
